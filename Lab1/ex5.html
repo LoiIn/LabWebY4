@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td, tbody, thead {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        tbody tr td:last-child{
+            text-align: center;
+            /* width: 70%; */
+        }
+        
+        thead tr th:first-child{
+            text-align: left;
+        }
+
+        thead tr:first-child{
+            border-bottom-style: hidden;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div style="width:70%; margin:auto; margin-top: 100px;">
+        <table style="width:100%">
+            <thead>
+                <tr>
+                    <th style="width:30%">Personal Details</th>
+                    <th style="border-left-style: hidden;width: 40%;"></th>
+                    <th>Image</th> 
+                </tr>
+                <tr>
+                    <th>Jame</th>
+                    <th style="border-left-style: hidden;"></th>
+                    <th>
+                        <img src="https://i.pinimg.com/originals/2f/88/0e/2f880ef2e1761ec234bf68cba9e7f3bb.jpg" alt="" width="50px" height="50px">
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Education process</td>
+                    <td colspan="2">
+                        <b>Tiến sỹ khoa học</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Working process</td>
+                    <td colspan="2">
+                        <i style="color:red">Java Spring Developer</i>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Society activities</td>
+                    <td colspan="2">fakeData</td>
+                </tr>
+                <tr>
+                    <td>Skills</td>
+                    <td colspan="2">fakeData</td>
+                </tr>
+                <tr>
+                    <td>Experiences</td>
+                    <td colspan="2">fakeData</td>
+                </tr>
+                <tr>
+                    <td>Certifications</td>
+                    <td colspan="2">fakeData</td>
+                </tr>
+                <tr>
+                    <td>Bobbies</td>
+                    <td colspan="2">fakeData</td>
+                </tr>
+                <tr>
+                    <td>Desire</td>
+                    <td colspan="2">fakeData</td>
+                </tr>
+                 
+            </tbody>
+          </table>
+    </div>
+</body>
+</html>
